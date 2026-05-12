@@ -1,0 +1,20 @@
+{
+  "name": "pharmaceutical-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Pharmaceutical Management System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "test": "npm run test --prefix client && npm run test --prefix server"
+  },
+  "keywords": ["pharmaceutical", "management", "react", "node", "postgresql"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
