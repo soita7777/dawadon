@@ -1,7 +1,7 @@
 {
   "name": "pharmaceutical-management-system",
   "version": "1.0.0",
-  "description": "Full-stack Pharmaceutical Management System",
+  "description": "DAWA DON LTD",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
